@@ -1,0 +1,19 @@
+package com.sathya.Springorm.Entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Person {
+	private int Id;
+	private String FirstName;
+	private String LastName;
+	private String Email;
+	private int Age;
+
+}

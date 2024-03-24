@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.sathya.entity.Product"><rhs name\="com.sathya.entity.Product"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.chrono.ChronoLocalDateTime"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="com.sathya.Model.ProductDetails"><rhs name\="com.sathya.Model.ProductDetails"/></lhs><lhs name\="com.sathya.model.productDetails"><rhs name\="com.sathya.model.productDetails"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.sathya.SpringDataJpa.entity.Product"><rhs name\="com.sathya.SpringDataJpa.entity.Product"/></lhs><lhs name\="com.sathya.SpringDataJpa.model.productDetails"><rhs name\="com.sathya.SpringDataJpa.model.productDetails"/></lhs></history>
+content_assist_number_of_computers=14
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,5 @@
+package com.sathya.Springorm.Entity;
+
+public class Person {
+
+}

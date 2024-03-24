@@ -1,0 +1,5 @@
+INSERT INTO book1 VALUES (111, 'corejava', 'ratan', 220);
+INSERT INTO book1 VALUES (222, 'spring', 'ratan', 220);
+INSERT INTO book1 VALUES (333, 'springboot', 'ratan', 220);
+INSERT INTO book1 VALUES (444, 'html', 'ratan', 220);
+INSERT INTO book1 VALUES (555, 'jsp', 'ratan', 220);

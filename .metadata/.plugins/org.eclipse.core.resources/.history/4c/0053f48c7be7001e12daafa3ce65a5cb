@@ -1,0 +1,5 @@
+package com.sathya.SpringDataJpa.model;
+
+public class productDetails {
+
+}

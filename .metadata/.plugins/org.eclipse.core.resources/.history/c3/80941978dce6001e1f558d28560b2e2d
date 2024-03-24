@@ -1,0 +1,9 @@
+package com.sathya.Repository;
+
+
+
+import com.sathya.entity.Product;
+
+public interface ProductRepositary implements {
+
+}

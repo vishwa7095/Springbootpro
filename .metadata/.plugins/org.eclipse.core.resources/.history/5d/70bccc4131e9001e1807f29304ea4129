@@ -1,0 +1,6 @@
+INSERT INTO book1 (isbn, name, author, price) VALUES (111, 'Core Java', 'Ratan', 220);
+INSERT INTO book1 (isbn, name, author, price) VALUES (222, 'Spring', 'Ratan', 220);
+INSERT INTO book1 (isbn, name, author, price) VALUES (333, 'Spring Boot', 'Ratan', 220);
+INSERT INTO book1 (isbn, name, author, price) VALUES (444, 'HTML', 'Ratan', 220);
+INSERT INTO book1 (isbn, name, author, price) VALUES (555, 'JSP', 'Ratan', 220);
+ 

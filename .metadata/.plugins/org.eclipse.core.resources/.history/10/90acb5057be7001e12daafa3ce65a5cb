@@ -1,0 +1,24 @@
+package com.sathya.SpringDataJpa.entity;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+public class Product {
+	@Entity
+	@Data
+	@AllArgsConstructor
+	@NoArgsConstructor
+	public class Product {
+		private int proId;
+		private String proName;
+		private double proPrice;
+		
+		private  LocalDateTime createAt;
+		private String createBy;
+
+}
+}

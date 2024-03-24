@@ -1,0 +1,22 @@
+package com.sathya.SpringDataJpa.Mapper;
+
+import java.time.LocalDateTime;
+
+import com.sathya.SpringDataJpa.entity.Product;
+import com.sathya.SpringDataJpa.model.productDetails;
+
+
+public class ProductMapper {
+	public ProductMapper modelToConversion(productDetails productDetails)
+	{
+		Product product=new Product();
+		product.setProId(productDetails.getProId());
+		product.setProName(productDetails.getProName());
+		product.setProPrice(productDetails.getProPrice());
+		product.setCreateBy(System.getProperty("user.name"));
+		product.setCreateAt(LocalDateTime.now());
+		
+		return product;
+
+}
+}

@@ -1,0 +1,24 @@
+package com.sathya.SpringDataJpa;
+
+import org.springframework.boot.CommandLineRunner;
+
+import com.sathya.Model.ProductDetails;
+import com.sathya.entity.Product;
+
+public class ProductClient implements CommandLineRunner{
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		productDetails productDetails =new productDetails();
+		productDetails.setProId(1001);
+		productDetails.setProName("sugar");
+		productDetails.setProPrice(220);
+		
+		//conversion of model class data to entity:
+		Product product=mapper.modelToConversion(productDetails);
+		
+	}
+	
+
+}

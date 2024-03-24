@@ -1,0 +1,11 @@
+package com.sathya.SpringDataJpa;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Product {
+	private int proId;
+	private String proName;
+	private double proPrice;
+
+}

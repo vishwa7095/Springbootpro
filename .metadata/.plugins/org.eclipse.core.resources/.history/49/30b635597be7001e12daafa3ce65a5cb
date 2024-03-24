@@ -1,0 +1,5 @@
+package com.sathya.SpringDataJpa.Mapper;
+
+public class Mapper {
+
+}

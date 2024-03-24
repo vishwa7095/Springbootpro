@@ -1,0 +1,14 @@
+package com.sathya.SpringDataJpa;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.ToString;
+
+@Entity
+public class Product {
+	@Id
+	private int proId;
+	private String proName;
+	private double proPrice;
+
+}

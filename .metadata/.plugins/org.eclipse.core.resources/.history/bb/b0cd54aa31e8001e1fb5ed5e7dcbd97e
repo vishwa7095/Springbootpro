@@ -1,0 +1,5 @@
+package com.sathya.Springorm.Mapper;
+
+public class PersonMapper {
+
+}

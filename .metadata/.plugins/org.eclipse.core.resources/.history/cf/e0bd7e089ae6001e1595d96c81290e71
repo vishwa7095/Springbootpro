@@ -1,0 +1,5 @@
+spring.application.name=demo
+Spring.dataSource.url=jdbc:h2:mem:viswa
+Spring.dataSource.driverclassName=org.h2.Driver
+Spring.dataSource.Username=viswa
+Spring.dataSource.password=welcome

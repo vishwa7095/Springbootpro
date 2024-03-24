@@ -1,0 +1,7 @@
+spring.application.name=demo
+server.port =8084
+ spring.dataSource.url=jdbc:h2:mem:viswa
+spring.dataSource.driverclassName=org.h2.Driver
+spring.dataSource.Username=viswa
+spring.dataSource.password=welcome
+spring.h2.console.enabled=true

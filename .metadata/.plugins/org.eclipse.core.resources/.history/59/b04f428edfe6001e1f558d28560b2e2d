@@ -1,0 +1,33 @@
+package com.sathya.SpringDataJpa;
+
+import org.apache.catalina.mapper.Mapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.sathya.Repository.ProductRepositary;
+import com.sathya.entity.Product;
+import com.sathya.model.productDetails;
+
+
+public class ProductClient implements CommandLineRunner{
+	
+	
+	@Autowired
+	ProductRepositary productRepositary;
+	
+	@Autowired
+	Mapper mapper;
+
+	@Override
+	public void run(String... args) throws Exception {
+		productDetails productDetails =new productDetails();
+		
+		
+	}
+
+	 
+		
+	}
+	
+
+}

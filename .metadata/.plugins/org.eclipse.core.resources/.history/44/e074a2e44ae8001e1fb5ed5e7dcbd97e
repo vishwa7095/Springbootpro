@@ -1,0 +1,11 @@
+package com.sathya.SpringOrm.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sathya.SpringOrm.entity.Book;
+
+public interface SpringRepository extends JpaRepository<Book, Long>{
+	
+	
+
+}

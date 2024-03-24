@@ -1,0 +1,5 @@
+package com.sathya.Springorm.model;
+
+public class PersonDetails {
+
+}

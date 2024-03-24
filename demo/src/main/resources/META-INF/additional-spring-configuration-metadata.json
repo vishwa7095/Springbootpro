@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "Spring.dataSource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.dataSource.url'"
+  },
+  {
+    "name": "Spring.dataSource.driverclassName",
+    "type": "java.lang.String",
+    "description": "A description for 'Spring.dataSource.driverclassName'"
+  }
+]}

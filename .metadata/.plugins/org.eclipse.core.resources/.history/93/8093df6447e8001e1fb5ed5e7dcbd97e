@@ -1,0 +1,4 @@
+package com.sathya.SpringOrm.Repository;
+
+public class SpringRepository extends Jpa {
+}

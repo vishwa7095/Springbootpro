@@ -1,0 +1,21 @@
+package com.sathya.Mapper;
+
+import java.time.LocalDateTime;
+
+import com.sathya.entity.Product;
+
+public class Mapper {
+	public Product modelToConversion(ProductDetails productDetails)
+	{
+		Product product=new Product();
+		product.setProId(productDetails.getProId());
+		product.setProName(productDetails.getProName());
+		product.setProPrice(productDetails.getProPrice());
+		product.setCreateBy(System.getProperty("user.name"));
+		product.setCreateAt(LocalDateTime.now());
+		
+		return product;
+		
+	}
+
+}
